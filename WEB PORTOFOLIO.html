@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio - Alnur</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(120deg, #0066cc, #0099ff);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .profile-photo {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #fff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      margin-top: 15px;
+    }
+    nav {
+      background: #004080;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #004080;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      padding: 5px 0;
+    }
+    footer {
+      background: #004080;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+    .contact a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    /* styling proyek dan lomba */
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: flex-start;
+    }
+    .flex-item {
+      flex: 1;
+      min-width: 250px;
+      text-align: center;
+    }
+    .flex-item img {
+      width: 100%;
+      max-width: 350px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Portofolio </h1>
+    <img src="profile.jpg" alt="Foto Profil" class="profile-photo">
+    <h3>Alnur Artha Rizqy Nasaba</h3>
+    <p>Pelajar Teknik Mekatronika</p>
+  </header>
+
+  <nav>
+    <a href="#tentang">Tentang</a>
+    <a href="#proyek">Proyek</a>
+    <a href="#skill">Skill</a>
+    <a href="#lomba">Lomba</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <section id="tentang">
+    <h2>Tentang Saya</h2>
+    <p>Saya adalah pelajar Teknik Mekatronika dari SMK Mitra Industri 02 PATI dan saya sekarang sedang menduduki di kelas 11 dengan minat besar di bidang otomasi, elektronika, pemrograman PLC, dan desain mekanik. Saya memiliki pengalaman membuat berbagai proyek seperti trainer IoT dan robot Mechtron. Berkomitmen untuk terus belajar dan mengembangkan keterampilan di dunia industri modern.</p>
+  </section>
+
+  <section id="proyek">
+    <h2>Proyek</h2>
+    <div class="flex-container">
+      <div class="flex-item">
+        <img src="robot.jpg" alt="Robot Mectron">
+        <p><strong>Project Robot Mectron:</strong> Robot mekatronika yang memiliki sistem untuk menyambut para tamu dari SMK Mitra Industri 02 PATI.</p>
+      </div>
+      <div class="flex-item">
+        <img src="Screenshot 2025-04-16 112306.png" alt="Trainer IoT">
+        <p><strong>Trainer IoT:</strong> Perangkat edukasi untuk mempelajari konsep Internet of Things dengan sensor dan kontrol berbasis Arduino.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skill">
+    <h2>Skill Utama</h2>
+    <ul>
+      <li>Keahlian Perkakas Tangan</li>
+      <li>Pemrograman PLC</li>
+      <li>Pemrograman Pneumatik</li>
+      <li>Keahlian Elektronika Dasar</li>
+      <li>Pemrograman Hydraulic</li>
+      <li>Desain 3D Onshape & Pemahaman Arus Motor 3 Fasa</li>
+    </ul>
+  </section>
+
+  <section id="lomba">
+  <h2>Lomba</h2>
+  <div class="flex-container">
+    <div class="flex-item">
+      <img src="mechanincal fair ugm.png" alt="Sertifikat Mechanical Fair UGM">
+      <p><strong>Mechanical Fair UGM - Cabang PLC:</strong> Peserta lomba PLC pada acara Mechanical Fair 2025 yang diselenggarakan oleh Universitas Gadjah Mada, Departemen Teknik Mesin Sekolah Vokasi.</p>
+    </div>
+  </div>
+</section>
+
+
+  <section id="kontak">
+    <h2>Kontak</h2>
+    <p>Email: <a href="mailto:alnurrr2007@gmail.com">alnurrr2007@gmail.com</a></p>
+    <p>WhatsApp: <a href="https://wa.me/6282210549687">0822 1054 9687</a></p>
+    <p>Instagram: <a href="https://instagram.com/rskynsb">@rskynsb</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Alnur - Portofolio Teknik Mekatronika</p>
+  </footer>
+
+</body>
+</html>
